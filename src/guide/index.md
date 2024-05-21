@@ -218,7 +218,8 @@ const knex = require('knex')({
     port : 3306,
     user : 'your_database_user',
     password : 'your_database_password',
-    database : 'myapp_test'
+    database : 'myapp_test',
+		charset: 'utf8mb4'
   }
 });
 ```
